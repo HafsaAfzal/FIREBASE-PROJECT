@@ -1,0 +1,90 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+.mainDiv{
+    width: 332px;
+    height: 530px;
+    margin-top: 40px;
+    border: 2px solid green;
+    align-items: center;
+    justify-content: center;
+    border-radius: 35px;
+}
+#logo{
+    /* background-color: beige; */
+    width:300px;
+    height: 200px;
+    margin-top: 80px;
+}
+#logo img{
+    width: 200px;
+    height: 180px;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+.sylanitext{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #61B846;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-bottom: 0px;
+}
+.bluetext{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: small;
+    color: #024F9D;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 8px;
+    line-height: 4px;
+}
+.form{
+    width: 332px;
+    height: 215px;
+    /* border: 2px solid black; */
+}
+.input_field{
+ width: 250px;
+ /* margin: 8px,0px;    */
+ margin-top: 8px;
+ margin-left: 24px;
+  border: none; 
+  border-bottom: 2px solid rgb(232, 230, 230);
+  padding: 12px; 
+  /* background-color: whitesmoke; */
+}
+#button{
+    width: 150px;
+    height: 50px;
+    margin-left: 80px;
+    /* padding: 4px; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-size:larger;
+    font-weight: bold;
+    background-color: #61B846;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 8px 4px rgba(212, 211, 211, 1);
+    
+}
+.to_signin{
+    font-size: small;
+    color: #024F9D;
+    margin-left: 60px;
+}
+.foget{
+    font-size: medium;
+    color: rgba(2, 79, 157, 1);
+    font-weight: bold;
+    margin-left: 28px;
+
+}
