@@ -86,6 +86,7 @@ body{
     color: rgba(2, 79, 157, 1);
     font-weight: bold;
     margin-left: 28px;
+    margin-bottom: 0px;
 
 }
 /* HOME PAGE CSS     */
@@ -150,4 +151,51 @@ body{
 #search_icon img{
     width: 15px;
     margin-left: 8px;
+}
+.categorey_pics{
+    margin-top: 0px;
+    margin-left: 20px;
+    height: 50px;
+    width: 60px;
+}
+.flex_container{
+    display:inline;
+    border: 2px solid darkorange;
+}
+.container{
+    display: inline-block;
+    /* border: 2px solid darkcyan; */
+}
+.item0{
+    display: inline-block;
+    width: 80px;
+    height: 70px;
+    margin-top: 2px;
+    margin-left: 4px;
+    border: 2px solid black;
+}
+.item1{
+    display: inline-block;
+    border: 2px solid blue;
+}
+.item2{
+    display: inline;
+    font-weight: bold;
+    margin-left: 40px;
+    border: 2px solid brown;
+}
+.bottom_div{
+    height: 50px;
+    width: 100px;
+    /* border: 2px solid darkblue; */
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 0px;
+
+}
+.bottom1{
+    /* display: inline; */
+}
+.bottom2{
+    /* display: inline; */
 }
