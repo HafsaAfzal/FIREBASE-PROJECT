@@ -104,7 +104,7 @@ const signin = () => {
                     else {
                         const user = { email: email };
                         localStorage.setItem('user', JSON.stringify(user));
-                        window.location.href = '../Home/home.html'
+                        window.location.href = "./home.html"
                     }
                 } else {
                     console.log("No data available");

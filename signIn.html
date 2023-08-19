@@ -14,17 +14,18 @@
         <h6 class="bluetext">ONLINE DISCOUNT STORE</h6>
         <div class="form">
 
-            <input class="input_field" type="email" placeholder="Enter Email">
+            <input id="email"  class="input_field" type="email" placeholder="Enter Email">
 
-            <input class="input_field" type="password" placeholder="Enter Password">
+            <input  id="password" class="input_field" type="password" placeholder="Enter Password">
             <p class="foget">Forget Password ?</p>
         </div>
-        <button type="submit" value="submit" id="button">Sign In</button>
+        <button type="button" value="submit" id="button" onclick="signin()">Sign In</button>
         <p class="to_signin">Don't have an Account? <a href="./signup.html">Sign Up</a></p>
-
-
-
     </div>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+    <script src="./firebaseConfig.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
