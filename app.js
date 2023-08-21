@@ -71,7 +71,7 @@ const signup = () => {
                     const user = { email: email };
                     localStorage.setItem('user', JSON.stringify(user));
                     console.log('User created successfully.')
-                    window.location.href = '../Home/home.html'
+                    window.location.href = './home.html'
                 })
                 .catch((error) => {
                     console.log(error);
