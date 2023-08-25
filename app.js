@@ -53,9 +53,11 @@ const signup = () => {
     let contact = document.getElementById('phonenumber').value;
     let email = document.getElementById('email').value;
     let password = document.getElementById('password').value;
-    let role = 'User'
+    // let role = 'User'
+    let role = document.querySelector(".roleBtn").value;
+    
 
-    console.log(email, password)
+    console.log(email, password, role)
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then((userCredential) => {
             let user = userCredential.user;
@@ -71,7 +73,7 @@ const signup = () => {
                     const user = { email: email };
                     localStorage.setItem('user', JSON.stringify(user));
                     console.log('User created successfully.')
-                    window.location.href = './home.html'
+                    window.location.href = './signIn.html'
                 })
                 .catch((error) => {
                     console.log(error);
@@ -99,7 +101,7 @@ const signin = () => {
                         const user = { email: email };
                         localStorage.setItem('user', JSON.stringify(user));
                         console.log('User created successfully.')
-                        window.location.href = '../Admin/items/items.html'
+                        window.location.href = "./adminAddproduct.html"
                     }
                     else {
                         const user = { email: email };
@@ -118,4 +120,4 @@ const signin = () => {
             let errorMessage = error.message;
             console.log(errorCode + ': ' + errorMessage)
         })
-    }
+}

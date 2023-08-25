@@ -43,22 +43,22 @@
      
       <div class="imageDcp">
 
-        <input type="text" class="itemName" placeholder="Item name">
+        <input  id="itemName"  type="text" class="itemName" placeholder="Item name">
         <input id="itemDcp" class="itemName" type="text" placeholder="Describe the item">
         <!-- <span>Unit Name:</span> <input id="itemUnit" type="text" placeholder="Kg / Dosen "><br>
         <br><span>Unit Price:</span><input id="itemPrice" type="number" placeholder="$35">
        -->
       <div class="newDiv">
         <div class="div11">
-          <span>Unit Name:</span> <input class="itemUnit" type="text" placeholder="Kg / Dosen ">
+          <span>Unit Name:</span> <input  id="itemQuantity" class="itemUnit" type="text" placeholder="Kg / Dosen ">
         </div>
         <div class="div22">
-          <span>Unit Price:</span><input  class="itemUnit" type="number" placeholder="$35">
+          <span>Unit Price:</span><input id="itemPrice" class="itemUnit" type="number" placeholder="$35">
         </div>
       </div>
       </div>     
     </div>
-    <button type="submit" value="submit" id="button" onclick="">Add Product</button> 
+    <button type="submit" value="submit" id="button" onclick="addProduct()">Add Product</button> 
   <div class="bottomDiv">
     <div class="btmPic">
       <img src="./IMAGES/image 29.png">
@@ -84,6 +84,12 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/fontawesome.min.js"
     integrity="sha512-64O4TSvYybbO2u06YzKDmZfLj/Tcr9+oorWhxzE3yDnmBRf7wvDgQweCzUf5pm2xYTgHMMyk5tW8kWU92JENng=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-auth.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-storage.js"></script>
+        <script src="./firebaseConfig.js"></script>
+        <script src="./addProduct.js"></script>
 </body>
 
 </html>
